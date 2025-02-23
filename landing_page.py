@@ -37,7 +37,7 @@ def main():
         st.write("- Yoel Winer")
     
     elif page == "App":
-        import app  # Lazy import to prevent premature execution
+        import app (3)  # Lazy import to prevent premature execution
         app.main()
     
     elif page == "Contact Us / Feedback":
