@@ -38,7 +38,7 @@ def main():
     
     elif page == "App":
         import app_proto  # Lazy import to prevent premature execution
-        app.main()
+        app_proto.main()
     
     elif page == "Contact Us / Feedback":
         import feedback
