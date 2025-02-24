@@ -9,7 +9,7 @@ import io
 # Load the TFLite model
 @st.cache_resource  # Cache the interpreter for efficiency
 def load_model():
-    interpreter = tflite.Interpreter(model_path="model1.tflite")
+    interpreter = tflite.Interpreter(model_path="model_f.tflite")
     interpreter.allocate_tensors()
     return interpreter
 
